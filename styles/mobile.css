@@ -1,0 +1,89 @@
+/* CLASSES UTILITÁRIAS*/
+
+.titulo-largo{
+    text-align: center;
+    font-size: 32px;
+}
+
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul, 
+#navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+/* SHOWCASE */
+
+#showcase {
+    height: 100%; /* colocar a altura do showcase a 100%*/
+}
+
+ /* alterar o espaçamento */
+#showcase .showcase-content {
+    /*padding-top: 70px;
+    padding-bottom: 30px;*/
+    padding: 30px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 32px;
+}
+
+/* HOME INFO */
+
+/* Na versão mobile vamos alterar a altura */
+#home-info {
+    height: 500px;
+}
+
+/* Na versão mobile vamos retirar a imagem da Informação para o texto ser melhor apresentado */
+#home-info .info-img {
+    display: none;
+}
+
+/* O texto se encontra a direita, vamos colocar ele no centro definindo o with para ocupar o texto completo */
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+/* BOXES */
+
+/* Colocar uma por cima da outra */
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* PÁGINA ABOUT */
+
+/* Colocar os elementos um por baixo do outro e com uma largura total da página*/
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+/* Vamos colocar uma margem no topo */
+#about-info .info-right{
+    padding: 30px;
+}
+
+/* TESTIMONIALS */
+#testemunhos {
+    height: auto;;
+}
+
+/* CONTACTOS */
+
+#contacto-info .box {
+    border-bottom: #444 dotted 1px;
+}
